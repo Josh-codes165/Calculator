@@ -1,0 +1,56 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #d7cfe0;
+  padding: 0 20px;
+}
+
+.total {
+  background-color: #8f8f8f;
+  max-width: 500px;
+  width: 100%;
+  justify-self: center;
+  padding: 20px 30px;
+  margin-top: 60px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.top {
+    color: white;
+    text-align: left;
+}
+
+.inputSection {
+    display: grid;
+    margin-top: 15px;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    text-align: left;
+}
+
+.enter {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.tempInput {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.convertBtn {
+    padding: 10px 10px;
+    margin-top: 10px;
+    justify-self: left;
+    background-color: orange;
+
+}

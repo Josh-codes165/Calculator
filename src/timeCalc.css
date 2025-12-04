@@ -1,0 +1,52 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    padding: 0 20px;
+}
+
+.ti {
+    color: white;
+    margin-top: 10px;
+}
+.timeConatiner {
+  background-color: #8f8f8f;
+  max-width: 500px;
+  width: 100%;
+  justify-self: center;
+  padding: 20px 30px;
+  margin-top: 60px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.timeControls {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+}
+
+.controls {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.titi {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.select {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+}

@@ -11,7 +11,7 @@ function Welcome() {
     <>
       <div className="entire">
         <div className="welcome">
-          <h1>Welcome to Calculator App</h1>
+          <h1 className="make">Welcome to Calculator App</h1>
           <p className="choose">Choose a mode </p>
         </div>
         <div className="images">

@@ -29,8 +29,8 @@ function Volume() {
           <Link to="/Hemisphere">
             <p>Hemisphere</p>
           </Link>
-          <Link to="/Cone">
-            <p>Frustum of a Cone:</p>
+          <Link to="/Frustrum of a cone">
+            <p>Frustum of a Cone</p>
           </Link>
         </div>
       </div>

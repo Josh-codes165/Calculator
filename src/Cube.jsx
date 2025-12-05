@@ -8,13 +8,11 @@ function Cube() {
   const handleCube = () => {
     const init = parseFloat(num);
     if (num === "") {
-      setAns("Please Enter a Number");
       alert("Please Enter a Number");
       return;
     }
 
     if (isNaN(init)) {
-      setAns("Only Numbers are allowed");
       alert("Only Numbers are allowed");
       return;
     }

@@ -12,13 +12,11 @@ function Cuboid() {
     const init1 = parseFloat(num1);
     const init2 = parseFloat(num2);
     if (num3 === "" || num1 === "" || num2 === "") {
-      setAns1("Please Enter a Number");
       alert("Please Enter a Number");
       return;
     }
 
     if (isNaN(init3 || init1 || init2)) {
-      setAns1("Only Numbers are allowed");
       alert("Only Numbers are allowed");
       return;
     }

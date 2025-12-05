@@ -1,16 +1,16 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .shape {
-    color: white;
-    margin-top: 20px;
-    text-align: center;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
 }
 .volumeContainer {
-    background-color: #8f8f8f;
+  background-color: #8f8f8f;
   max-width: 500px;
   width: 100%;
   justify-self: center;
@@ -22,9 +22,9 @@
 }
 
 .shapeContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: left;
-    row-gap: 50px;
-    margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  row-gap: 50px;
+  margin-top: 50px;
 }

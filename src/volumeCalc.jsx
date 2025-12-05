@@ -9,13 +9,13 @@ function Volume() {
         <h1 className="shape">Choose Shape</h1>
         <div className="shapeContainer">
           <Link to="/Cube">
-            <p>Cube</p>
+            <button>Cube</button>
           </Link>
           <Link to="/Cuboid">
-            <p>Rectangular Prism (Cuboid)</p>
+            <button>Rectangular Prism (Cuboid)</button>
           </Link>
           <Link to="/Sphere">
-            <p>Sphere</p>
+            <button>Sphere</button>
           </Link>
           <Link to="/Cylinder">
             <p>Cylinder</p>

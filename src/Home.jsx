@@ -15,41 +15,41 @@ function Welcome() {
           <p className="choose">Choose a mode </p>
         </div>
         <div className="images">
-          <Link to="/normalCalc">
+          <Link className="homebtn" to="/normalCalc">
             <div className="img1">
               <img src={img2} alt="" srcset="" className="" />
               <p>Normal Calculator</p>
             </div>
           </Link>
-          <Link to="/volumeCalc">
+          <Link className="homebtn" to="/volumeCalc">
             <div className="img1">
               <img src={img3} alt="" srcset="" className="" />
 
               <p>Volume Calculator</p>
             </div>
           </Link>
-          <Link to="/areaCalc">
+          <Link className="homebtn" to="/areaCalc">
             <div className="img1">
               <img src={img5} alt="" srcset="" className="img2" />
 
               <p>Area Conversion</p>
             </div>
           </Link>
-          <Link to="/tempCalc">
+          <Link className="homebtn" to="/tempCalc">
             <div className="img1">
               <img src={img4} alt="" srcset="" className="" />
 
               <p>Temperature Conversion</p>
             </div>
           </Link>
-          <Link to="/timeCalc">
+          <Link className="homebtn" to="/timeCalc">
             <div className="img1">
               <img src={img1} alt="" srcset="" className="" />
 
               <p>Time Conversion</p>
             </div>
           </Link>
-          <Link to="/weightCalc">
+          <Link className="homebtn" to="/weightCalc">
             <div className="img1">
               <img src={img6} alt="" srcset="" className="" />
 

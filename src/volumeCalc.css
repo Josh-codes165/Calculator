@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 .shape {
-  color: white;
+  color: black;
   margin-top: 20px;
   text-align: center;
 }
@@ -26,5 +26,13 @@
   grid-template-columns: 1fr 1fr;
   text-align: left;
   row-gap: 50px;
+  column-gap: 10px;
   margin-top: 50px;
+}
+
+.homebtn1 {
+  background-color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
 }

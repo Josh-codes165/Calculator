@@ -20,7 +20,7 @@ function Temperature() {
     <>
       <div className="total">
         <div className="top">
-          <h1>Temperature Converter</h1>
+          <h1 className="temp">Temperature Converter</h1>
         </div>
         <div className="inputSection">
           <div className="enter">

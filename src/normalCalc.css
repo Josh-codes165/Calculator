@@ -16,6 +16,7 @@ body {
   background-color: #8f8f8f;
   display: block;
   padding: 15px;
+  border: 1px solid black;
   border-radius: 10px;
   text-align: right;
   color: white;
@@ -49,6 +50,11 @@ body {
   background-color: orange;
 }
 
+.lastbtn:hover {
+  background-color: #8f8f8f;
+  color: white;
+}
+
 button {
   padding: 15px 0px;
   color: white;
@@ -60,3 +66,5 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+

@@ -28,34 +28,43 @@ function FrustrumOfaCone() {
   return (
     <>
       <div className="cuboidSetUp">
-        <label>Enter the Value of PI</label>
+        <label className="length">Enter Value of PI</label>
         <input
           type="number"
           className="cuboidInput"
           value={chie}
           onChange={(e) => usechie(e.target.value)}
         />
-        <label>Enter the Width of the Frustrum</label>
-        <input
-          type="number"
-          className="cuboidInput"
-          value={chie1}
-          onChange={(e) => usechie1(e.target.value)}
-        />
-        <label>Enter the Radius of the Larger Base of the Frustrum(R1) </label>
-        <input
-          type="number"
-          className="cuboidInput"
-          value={chie2}
-          onChange={(e) => usechie2(e.target.value)}
-        />
-        <label>Enter the Radius of the Larger Base of the Frustrum(R2)</label>
-        <input
-          type="number"
-          className="cuboidInput"
-          value={chie3}
-          onChange={(e) => usechie3(e.target.value)}
-        />
+        <div className="div">
+            <label className="length">Enter Width of the Frustrum</label>
+          <input
+            type="number"
+            className="cuboidInput"
+            value={chie1}
+            id="cb"
+            onChange={(e) => usechie1(e.target.value)}
+          />
+        </div>
+        <div className="div">
+            <label className="length">Enter Radius of the Larger Base(R1) </label>
+          <input
+            type="number"
+            className="cuboidInput"
+            value={chie2}
+            id="cb"
+            onChange={(e) => usechie2(e.target.value)}
+          />
+        </div>
+        <div className="div">
+            <label className="length">Enter Radius of the Larger Base(R2)</label>
+          <input
+            type="number"
+            className="cuboidInput"
+            value={chie3}
+            id="cb"
+            onChange={(e) => usechie3(e.target.value)}
+          />
+        </div>
         <button className="solveBtn" onClick={handleFrustrum}>
           Solve
         </button>

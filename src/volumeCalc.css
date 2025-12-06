@@ -36,3 +36,8 @@
   padding: 20px;
   border-radius: 10px;
 }
+
+.homebtn1:hover {
+  background-color: orange;
+  color: white;
+}

@@ -22,7 +22,7 @@ function Cube() {
   return (
     <>
       <div className="cubeSetUp">
-        <label>Enter the length</label>
+        <label className="length">Enter length of Cube:</label>
         <input
           type="number"
           className="cubeInput"

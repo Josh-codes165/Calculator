@@ -21,32 +21,38 @@ function Cone() {
       return;
     }
 
-    useuni3((1/3) * sec * (sec1 * sec1) * sec2)
+    useuni3((1 / 3) * sec * (sec1 * sec1) * sec2);
   };
   return (
     <>
       <div className="cubeSetUp">
-        <label>Enter the Value PI</label>
+        <label className="length">Enter the Value PI</label>
         <input
           type="number"
           className="cubeInput"
           value={uni}
           onChange={(e) => useuni(e.target.value)}
         />
-        <label>Enter the Radius of the Cone</label>
-        <input
-          type="number"
-          className="cubeInput"
-          value={uni1}
-          onChange={(e) => useuni1(e.target.value)}
-        />
-        <label>Enter the height of the Cone</label>
-        <input
-          type="number"
-          className="cubeInput"
-          value={uni2}
-          onChange={(e) => useuni2(e.target.value)}
-        />
+        <div className="div">
+          <label className="length">Enter the Radius of the Cone</label>
+          <input
+            type="number"
+            className="cubeInput"
+            id="cb"
+            value={uni1}
+            onChange={(e) => useuni1(e.target.value)}
+          />
+        </div>
+        <div className="div">
+          <label className="length">Enter the height of the Cone</label>
+          <input
+            type="number"
+            className="cubeInput"
+            value={uni2}
+            id="cb"
+            onChange={(e) => useuni2(e.target.value)}
+          />
+        </div>
         <button className="solveBtn" onClick={handleCone}>
           Solve
         </button>

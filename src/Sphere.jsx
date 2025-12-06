@@ -18,26 +18,31 @@ function Sphere() {
       alert("Please Enter a Number");
       return;
     }
-    usemark((4/3) * (unit * unit * unit) * unit1)
+    usemark((4 / 3) * (unit * unit * unit) * unit1);
   };
   return (
     <>
       <div className="cubeSetUp">
-        <label>Enter the Radius of the Sphere</label>
+        <label className="length">Enter the Radius of the Sphere</label>
         <input
           type="number"
           className="cubeInput"
           value={iam}
           onChange={(e) => useiam(e.target.value)}
         />
-        <label>Enter the Value PI</label>
-        <input
-          type="number"
-          className="cubeInput"
-          value={use}
-          onChange={(e) => useuses(e.target.value)}
-        />
-        <button className="solveBtn" onClick={handleSphere}>Solve</button>
+        <div className="div">
+          <label className="length">Enter the Value PI</label>
+          <input
+            type="number"
+            className="cubeInput"
+            id="cb"
+            value={use}
+            onChange={(e) => useuses(e.target.value)}
+          />
+        </div>
+        <button className="solveBtn" onClick={handleSphere}>
+          Solve
+        </button>
         <p className="answer">Answer: {mark} </p>
       </div>
     </>

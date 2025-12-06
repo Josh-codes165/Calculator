@@ -169,3 +169,7 @@ a {
   padding: 20px;
   border-radius: 10px;
 }
+
+.homebtn:hover {
+  background-color: orange;
+}

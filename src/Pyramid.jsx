@@ -24,20 +24,23 @@ function Pyramid() {
   return (
     <>
       <div className="cubeSetUp">
-        <label>Enter the Base Area of the pyramid</label>
+        <label className="length">Enter the Base Area of the pyramid</label>
         <input
           type="number"
           className="cubeInput"
           value={non}
           onChange={(e) => usenon(e.target.value)}
         />
-        <label>Enter the Height Of the Pyramid</label>
-        <input
-          type="number"
-          className="cubeInput"
-          value={non1}
-          onChange={(e) => usenon1(e.target.value)}
-        />
+        <div className="div">
+            <label className="length">Enter the Height Of the Pyramid</label>
+          <input
+            type="number"
+            className="cubeInput"
+            value={non1}
+            id="cb"
+            onChange={(e) => usenon1(e.target.value)}
+          />
+        </div>
         <button className="solveBtn" onClick={handlePyramid}>
           Solve
         </button>

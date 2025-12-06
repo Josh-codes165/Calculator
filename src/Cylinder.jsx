@@ -28,27 +28,33 @@ function Cylinder() {
   return (
     <>
       <div className="cubeSetUp">
-        <label>Enter the Value PI</label>
+        <label className="length">Enter the Value PI</label>
         <input
           type="number"
           className="cubeInput"
           value={cyl}
           onChange={(e) => usecyl(e.target.value)}
         />
-        <label>Enter the Radius of the Cylinder</label>
-        <input
-          type="number"
-          className="cubeInput"
-          value={cyl1}
-          onChange={(e) => usecyl1(e.target.value)}
-        />
-        <label>Enter the height of the Cylinder</label>
-        <input
-          type="number"
-          className="cubeInput"
-          value={cyl2}
-          onChange={(e) => usecyl2(e.target.value)}
-        />
+        <div className="div">
+            <label className="length">Enter the Radius of the Cylinder</label>
+          <input
+            type="number"
+            className="cubeInput"
+            id="cb"
+            value={cyl1}
+            onChange={(e) => usecyl1(e.target.value)}
+          />
+        </div>
+        <div className="div">
+            <label className="length">Enter the height of the Cylinder</label>
+          <input
+            type="number"
+            className="cubeInput"
+            value={cyl2}
+            id="cb"
+            onChange={(e) => usecyl2(e.target.value)}
+          />
+        </div>
         <button className="solveBtn" onClick={handleSphere}>Solve</button>
         <p className="answer">Answer: {cyl3}</p>
       </div>

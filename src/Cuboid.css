@@ -6,9 +6,8 @@
   text-align: left;
   width: 100%;
   justify-self: center;
-  padding: 20px 30px;
+  padding: 40px 30px;
   margin-top: 60px;
-  gap: 20px;
   border: none;
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
@@ -17,7 +16,8 @@
 .cuboidInput {
     padding: 10px 20px;
     border-radius: 10px;
-    border: none;
+    border: 1px solid orange;
     max-width: 480;
     width: 100%;
+    font-size: 20px;
 }

@@ -3,8 +3,8 @@ import { useState } from "react";
 
 function Cuboid() {
   const [num3, setNum3] = useState("");
-  const [num1, setNum1] = useState("")
-  const [num2, setNum2] = useState("")
+  const [num1, setNum1] = useState("");
+  const [num2, setNum2] = useState("");
   const [ans1, setAns1] = useState("");
 
   const handleCube1 = () => {
@@ -26,27 +26,33 @@ function Cuboid() {
   return (
     <>
       <div className="cuboidSetUp">
-        <label>Enter the length</label>
+        <label className="length">Enter the length</label>
         <input
           type="number"
           className="cuboidInput"
           value={num3}
           onChange={(e) => setNum3(e.target.value)}
         />
-        <label>Enter the Width</label>
-        <input
-          type="number"
-          className="cuboidInput"
-          value={num1}
-          onChange={(e) => setNum1(e.target.value)}
-        />
-        <label>Enter the Height</label>
-        <input
-          type="number"
-          className="cuboidInput"
-          value={num2}
-          onChange={(e) => setNum2(e.target.value)}
-        />
+        <div className="div">
+          <label className="length">Enter the Width</label>
+          <input
+            type="number"
+            className="cuboidInput"
+            value={num1}
+            id="cb"
+            onChange={(e) => setNum1(e.target.value)}
+          />
+        </div>
+        <div className="div">
+          <label className="length">Enter the Height</label>
+          <input
+            type="number"
+            className="cuboidInput"
+            value={num2}
+            id="cb"
+            onChange={(e) => setNum2(e.target.value)}
+          />
+        </div>
         <button className="solveBtn" onClick={handleCube1}>
           Solve
         </button>

@@ -28,7 +28,7 @@ function FrustrumOfaCone() {
   return (
     <>
       <div className="cuboidSetUp">
-        <label className="length">Enter Value of PI</label>
+        <label className="length">Enter Value of PI:</label>
         <input
           type="number"
           className="cuboidInput"
@@ -36,7 +36,7 @@ function FrustrumOfaCone() {
           onChange={(e) => usechie(e.target.value)}
         />
         <div className="div">
-            <label className="length">Enter Width of the Frustrum</label>
+            <label className="length">Enter Width of the Frustrum:</label>
           <input
             type="number"
             className="cuboidInput"
@@ -46,7 +46,7 @@ function FrustrumOfaCone() {
           />
         </div>
         <div className="div">
-            <label className="length">Enter Radius of the Larger Base(R1) </label>
+            <label className="length">Enter Radius of the Larger Base(R1): </label>
           <input
             type="number"
             className="cuboidInput"
@@ -56,7 +56,7 @@ function FrustrumOfaCone() {
           />
         </div>
         <div className="div">
-            <label className="length">Enter Radius of the Larger Base(R2)</label>
+            <label className="length">Enter Radius of the Larger Base(R2):</label>
           <input
             type="number"
             className="cuboidInput"

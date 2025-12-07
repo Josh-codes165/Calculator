@@ -28,7 +28,7 @@ function Cylinder() {
   return (
     <>
       <div className="cubeSetUp">
-        <label className="length">Enter the Value PI</label>
+        <label className="length">Enter the Value PI:</label>
         <input
           type="number"
           className="cubeInput"
@@ -36,7 +36,7 @@ function Cylinder() {
           onChange={(e) => usecyl(e.target.value)}
         />
         <div className="div">
-            <label className="length">Enter the Radius of the Cylinder</label>
+            <label className="length">Enter the Radius of the Cylinder:</label>
           <input
             type="number"
             className="cubeInput"
@@ -46,7 +46,7 @@ function Cylinder() {
           />
         </div>
         <div className="div">
-            <label className="length">Enter the height of the Cylinder</label>
+            <label className="length">Enter the height of the Cylinder:</label>
           <input
             type="number"
             className="cubeInput"

@@ -24,7 +24,7 @@ function Hemisphere() {
   return (
     <>
       <div className="cubeSetUp">
-        <label className="length">Enter the Value of PI</label>
+        <label className="length">Enter the Value of PI:</label>
         <input
           type="number"
           className="cubeInput"
@@ -32,7 +32,7 @@ function Hemisphere() {
           onChange={(e) => useinf(e.target.value)}
         />
         <div className="div">
-          <label className="length">Enter the Radius of Hemisphere</label>
+          <label className="length">Enter the Radius of Hemisphere:</label>
           <input
             type="number"
             className="cubeInput"

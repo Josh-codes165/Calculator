@@ -26,7 +26,7 @@ function Cone() {
   return (
     <>
       <div className="cubeSetUp">
-        <label className="length">Enter the Value PI</label>
+        <label className="length">Enter the Value PI:</label>
         <input
           type="number"
           className="cubeInput"
@@ -34,7 +34,7 @@ function Cone() {
           onChange={(e) => useuni(e.target.value)}
         />
         <div className="div">
-          <label className="length">Enter the Radius of the Cone</label>
+          <label className="length">Enter the Radius of the Cone:</label>
           <input
             type="number"
             className="cubeInput"
@@ -44,7 +44,7 @@ function Cone() {
           />
         </div>
         <div className="div">
-          <label className="length">Enter the height of the Cone</label>
+          <label className="length">Enter the height of the Cone:</label>
           <input
             type="number"
             className="cubeInput"

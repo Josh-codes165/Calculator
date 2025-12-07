@@ -23,7 +23,7 @@ function Sphere() {
   return (
     <>
       <div className="cubeSetUp">
-        <label className="length">Enter the Radius of the Sphere</label>
+        <label className="length">Enter the Radius of the Sphere:</label>
         <input
           type="number"
           className="cubeInput"
@@ -31,7 +31,7 @@ function Sphere() {
           onChange={(e) => useiam(e.target.value)}
         />
         <div className="div">
-          <label className="length">Enter the Value PI</label>
+          <label className="length">Enter the Value PI:</label>
           <input
             type="number"
             className="cubeInput"

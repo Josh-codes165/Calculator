@@ -26,7 +26,7 @@ function Cuboid() {
   return (
     <>
       <div className="cuboidSetUp">
-        <label className="length">Enter the length</label>
+        <label className="length">Enter the length:</label>
         <input
           type="number"
           className="cuboidInput"
@@ -34,7 +34,7 @@ function Cuboid() {
           onChange={(e) => setNum3(e.target.value)}
         />
         <div className="div">
-          <label className="length">Enter the Width</label>
+          <label className="length">Enter the Width:</label>
           <input
             type="number"
             className="cuboidInput"
@@ -44,7 +44,7 @@ function Cuboid() {
           />
         </div>
         <div className="div">
-          <label className="length">Enter the Height</label>
+          <label className="length">Enter the Height:</label>
           <input
             type="number"
             className="cuboidInput"

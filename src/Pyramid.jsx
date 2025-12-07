@@ -24,7 +24,7 @@ function Pyramid() {
   return (
     <>
       <div className="cubeSetUp">
-        <label className="length">Enter the Base Area of the pyramid</label>
+        <label className="length">Enter the Base Area of the pyramid:</label>
         <input
           type="number"
           className="cubeInput"
@@ -32,7 +32,7 @@ function Pyramid() {
           onChange={(e) => usenon(e.target.value)}
         />
         <div className="div">
-            <label className="length">Enter the Height Of the Pyramid</label>
+            <label className="length">Enter the Height Of the Pyramid:</label>
           <input
             type="number"
             className="cubeInput"

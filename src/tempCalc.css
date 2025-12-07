@@ -27,33 +27,51 @@ body {
 }
 
 .top {
-    color: white;
-    text-align: left;
+  color: white;
+  text-align: left;
 }
 
 .inputSection {
-    display: grid;
-    margin-top: 15px;
-    grid-template-rows: 1fr 1fr;
-    gap: 30px;
-    text-align: left;
+  display: grid;
+  margin-top: 15px;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  text-align: left;
 }
 
 .enter {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .tempInput {
-    padding: 10px 10px;
-    border: none;
-    border-radius: 8px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+#kk {
+  gap: 20px;
 }
 
 .convertBtn {
-    padding: 10px 10px;
-    margin-top: 10px;
-    justify-self: left;
-    background-color: orange;
-
+  padding: 10px 10px;
+  margin-top: 10px;
+  justify-self: left;
+  background-color: orange;
 }
+
+.answer1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#nm {
+  margin-top: 20px;
+}
+
+

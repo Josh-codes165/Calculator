@@ -23,8 +23,8 @@ function Temperature() {
           <h1 className="temp">Temperature Converter</h1>
         </div>
         <div className="inputSection">
-          <div className="enter">
-            <labe>Enter Celcius Temperature</labe>
+          <div className="enter" id="kk">
+            <label className='length1' id='nm'>Enter Celcius Temperature:</label>
             <input
               type="number"
               className="tempInput"
@@ -34,7 +34,7 @@ function Temperature() {
             />
           </div>
           <div className="enter">
-            <labe>Choose Unit</labe>
+            <label className='length1' >Choose Unit</label>
             <select
               name=""
               id=""
@@ -47,7 +47,7 @@ function Temperature() {
             </select>
           </div>
           <button className="convertBtn" onClick={handleConvert}>Convert</button>
-          <p>Coverted Temperature: {result}</p>
+          <p className="answer1">Coverted Temperature: {result}</p>
         </div>
       </div>
     </>

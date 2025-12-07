@@ -13,6 +13,15 @@ import Cone from "./Cone.jsx";
 import Pyramid from "./Pyramid.jsx";
 import Hemisphere from "./Hemisphere.jsx";
 import FrustrumOfaCone from "./Frustrum of a cone.jsx";
+import Area from "./areaCalc.jsx";
+import Square from "./Square.jsx";
+import Rectangle from "./Rectangle.jsx";
+import Triangle from "./Triangle.jsx";
+import Circle from "./Circle.jsx";
+import Parallelogram from "./Parallelogram.jsx";
+import Trapezium from "./Trapezium.jsx";
+import Rhombus from "./Rhombus.jsx";
+import Ellipse from "./Ellipse.jsx";
 
 function App() {
   return (
@@ -31,6 +40,15 @@ function App() {
         <Route path="/Pyramid" element={<Pyramid/>} />
         <Route path="/Hemisphere" element={<Hemisphere/>} />
         <Route path="/Frustrum of a cone" element={<FrustrumOfaCone/>} />
+        <Route path="/areaCalc" element={<Area/>} />
+        <Route path="/Square" element={<Square/>} />
+        <Route path="/Rectangle" element={<Rectangle/>} />
+        <Route path="/Triangle" element={<Triangle/>} />
+        <Route path="/Circle" element={<Circle/>} />
+        <Route path="/Parallelogram" element={<Parallelogram/>} />
+        <Route path="/Trapezium" element={<Trapezium/>} />
+        <Route path="/Rhombus" element={<Rhombus/>} />
+        <Route path="/Ellipse" element={<Ellipse/>} />
       </Routes>
     </BrowserRouter>
   );

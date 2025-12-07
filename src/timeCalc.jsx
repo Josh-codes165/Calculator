@@ -48,7 +48,7 @@ function Time() {
         <h1 className="ti">Time Converter</h1>
         <div className="timeControls">
           <div className="controls">
-            <label>Enter the Time</label>
+            <label className="length">Enter the Time</label>
             <input
               type="number"
               className="titi"
@@ -58,7 +58,7 @@ function Time() {
             />
           </div>
           <div className="controls">
-            <label>Time From</label>
+            <label className="length">Time From:</label>
             <select
               name=""
               id=""
@@ -73,7 +73,7 @@ function Time() {
             </select>
           </div>
           <div className="controls">
-            <label>Time To</label>
+            <label className="length">Time To:</label>
             <select
               name=""
               id=""
@@ -88,7 +88,7 @@ function Time() {
             </select>
           </div>
           <button className="convertBtn" onClick={handleConvert}>Convert</button>
-          <p>Converted Time: {result === null ? "—" : result}</p>
+          <p className="answer1">Converted Time: {result === null ? "—" : result}</p>
         </div>
       </div>
     </>

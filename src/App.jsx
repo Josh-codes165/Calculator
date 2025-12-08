@@ -5,6 +5,7 @@ import Temperature from "./tempCalc.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Time from "./timeCalc.jsx";
 import Volume from "./volumeCalc.jsx";
+import WeightCalc from "./weightCalc"
 import Cube from "./Cube.jsx";
 import Cuboid from "./Cuboid.jsx";
 import Sphere from "./Sphere.jsx";
@@ -49,6 +50,7 @@ function App() {
         <Route path="/Trapezium" element={<Trapezium/>} />
         <Route path="/Rhombus" element={<Rhombus/>} />
         <Route path="/Ellipse" element={<Ellipse/>} />
+        <Route path="/weightCalc" element={<WeightCalc/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -20,12 +20,12 @@ function Time() {
       return;
     }
     if (Number.isNaN(value)) {
-      setResult("Enter a valid number (e.g. 2.5).");
+      alert("Enter a valid number (e.g. 2.5).");
       return;
     }
 
     if (!(fromUnit in unitToMs) || !(toUnit in unitToMs)) {
-      setResult("Please pick valid units.");
+      alert("Please pick valid units.");
       return;
     }
 

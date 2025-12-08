@@ -16,7 +16,7 @@ function Time() {
     const value = parseFloat(input);
 
     if (input === "") {
-      setResult("Please enter a value.");
+      alert("Please enter a value.");
       return;
     }
     if (Number.isNaN(value)) {

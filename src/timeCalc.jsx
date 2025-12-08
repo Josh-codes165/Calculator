@@ -13,10 +13,8 @@ function Time() {
   const [toUnit, setToUnit] = useState("minutes");
   const [result, setResult] = useState(null);
   const handleConvert = () => {
-    // 1. parse the input as a number (we stored as string)
     const value = parseFloat(input);
 
-    // 2. validation
     if (input === "") {
       setResult("Please enter a value.");
       return;
@@ -26,17 +24,14 @@ function Time() {
       return;
     }
 
-    // 3. check units exist (simple safety)
     if (!(fromUnit in unitToMs) || !(toUnit in unitToMs)) {
       setResult("Please pick valid units.");
       return;
     }
 
-    // 4. normalize to milliseconds and convert
     const ms = value * unitToMs[fromUnit];
     const converted = ms / unitToMs[toUnit];
 
-    // 5. format the result: keep up to 6 decimal places if needed
     const pretty = Number.isInteger(converted)
       ? converted
       : parseFloat(converted.toFixed(6));
@@ -87,8 +82,12 @@ function Time() {
               <option value="milliseconds">MiliSeconds</option>
             </select>
           </div>
-          <button className="convertBtn" onClick={handleConvert}>Convert</button>
-          <p className="answer1">Converted Time: {result === null ? "—" : result}</p>
+          <button className="convertBtn" onClick={handleConvert}>
+            Convert
+          </button>
+          <p className="answer1">
+            Converted Time: {result === null ? "—" : result}
+          </p>
         </div>
       </div>
     </>

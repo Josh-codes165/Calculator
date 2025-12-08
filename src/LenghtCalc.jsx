@@ -31,12 +31,22 @@ function Lenght() {
         <div className="timeControls">
           <div className="controls">
             <label className="length">Enter Length</label>
-            <input type="number" className="titi" min={0} value={input} onChange={(e) => setInput(e.target.value)}/>
+            <input
+              type="number"
+              className="titi"
+              min={0}
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+            />
           </div>
 
           <div className="controls">
             <label className="length">Length From:</label>
-            <select className="select" value={fromUnit} onChange={(e) => setFromUnit(e.target.value)}>
+            <select
+              className="select"
+              value={fromUnit}
+              onChange={(e) => setFromUnit(e.target.value)}
+            >
               <option value="meters">Meters</option>
               <option value="centimeters">Centimeters </option>
               <option value="feet">Feet </option>
@@ -46,7 +56,11 @@ function Lenght() {
 
           <div className="controls">
             <label className="length">Length To:</label>
-            <select className="select" value={toUnit} onChange={(e) => setToUnit(e.target.value)}>
+            <select
+              className="select"
+              value={toUnit}
+              onChange={(e) => setToUnit(e.target.value)}
+            >
               <option value="meters">Meters</option>
               <option value="centimeters">Centimeters</option>
               <option value="feet">Feet</option>
@@ -54,7 +68,9 @@ function Lenght() {
             </select>
           </div>
 
-          <button className="convertBtn" onClick={handleConvert}>Convert</button>
+          <button className="convertBtn" onClick={handleConvert}>
+            Convert
+          </button>
 
           <p className="answer1">Converted Length: {result}</p>
         </div>

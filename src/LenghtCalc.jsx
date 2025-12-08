@@ -15,7 +15,7 @@ function Lenght() {
 
   const handleConvert = () => {
     if (input === "") {
-      setResult("Please enter a length.");
+      alert("Please enter a length.");
       return;
     }
 

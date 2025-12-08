@@ -4,6 +4,9 @@ import img3 from "./assets/Volume.png";
 import img4 from "./assets/Temperature.png";
 import img5 from "./assets/Area.png";
 import img6 from "./assets/Weight.png";
+import img7 from "./assets/Discount.png";
+import img8 from "./assets/Age.png";
+import img9 from "./assets/Length.png";
 import { Link } from "react-router-dom";
 
 function Welcome() {
@@ -53,7 +56,28 @@ function Welcome() {
             <div className="img1">
               <img src={img6} alt="" srcset="" className="" />
 
-              <p>Weight Conversion</p>
+              <p>Mass Conversion</p>
+            </div>
+          </Link>
+          <Link className="homebtn" to="/DiscountCalc">
+            <div className="img1">
+              <img src={img7} alt="" srcset="" className="" />
+
+              <p>Discount Calculator</p>
+            </div>
+          </Link>
+          <Link className="homebtn" to="/weightCalc">
+            <div className="img1">
+              <img src={img8} alt="" srcset="" className="" />
+
+              <p>Age Calculator</p>
+            </div>
+          </Link>
+          <Link className="homebtn" to="/LenghtCalc">
+            <div className="img1">
+              <img src={img9} alt="" srcset="" className="" />
+
+              <p>Length Conversion</p>
             </div>
           </Link>
         </div>

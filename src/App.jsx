@@ -23,6 +23,8 @@ import Parallelogram from "./Parallelogram.jsx";
 import Trapezium from "./Trapezium.jsx";
 import Rhombus from "./Rhombus.jsx";
 import Ellipse from "./Ellipse.jsx";
+import Discount from "./DiscountCalc.jsx";
+import Lenght from "./LenghtCalc.jsx";
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
         <Route path="/Rhombus" element={<Rhombus/>} />
         <Route path="/Ellipse" element={<Ellipse/>} />
         <Route path="/weightCalc" element={<WeightCalc/>} />
+        <Route path="/DiscountCalc" element={<Discount/>} />
+        <Route path="/LenghtCalc" element={<Lenght/>} />
       </Routes>
     </BrowserRouter>
   );
